@@ -14,7 +14,7 @@
 
 #include "Point.h"
 #include "sideOf.h"
-#include "onSegment.h"
+#include "OnSegment.h"
 
 typedef Point<ll> P;
 int insideHull2(const vector<P>& H, int L, int R, const P& p) {
